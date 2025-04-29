@@ -92,6 +92,17 @@ const router=createBrowserRouter(
           
       },
       {
+        path:'/detail',
+        element:
+        <div>
+          <Navbar/>
+          <DetailedProperty/>
+          <Footer/>
+
+        </div>
+        
+    },
+      {
         path:'/contact',
         element:
         <div>
