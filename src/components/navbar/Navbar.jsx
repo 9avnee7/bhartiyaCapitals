@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import logo from "../../assets/logo1.jpg";
+import logo from "../../assets/logo1.JPG"
 import './navbar.css';
 import { GlobalContext } from '../..';
 import Avatar from 'react-avatar';
