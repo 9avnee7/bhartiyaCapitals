@@ -1,0 +1,139 @@
+/* Base Styles */
+.faqContainer {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .faqHead {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: #333;
+    position: relative;
+    text-align: center;
+  }
+  
+  .faqHead::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #FF7A00, #FF9E00);
+    border-radius: 2px;
+  }
+  
+  /* FAQ Cards Container */
+  .faqCards {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  /* Individual FAQ Card */
+  .faqCard {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .faqCard:hover {
+    box-shadow: 0 8px 25px rgba(255, 122, 0, 0.1);
+    border-color: #FF7A00;
+  }
+  
+  /* Question Section */
+  .questionContainer {
+    padding: 1rem 0;
+  }
+  
+  .question {
+    font-weight: 600;
+    color: #333;
+    flex: 1;
+  }
+  
+  /* Answer Section */
+  .ansDiv {
+    color: #555;
+    line-height: 1.6;
+    background-color: rgba(255, 122, 0, 0.03);
+    border-radius: 0 0 8px 8px;
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  /* Chevron Icon */
+  .faqCard svg {
+    transition: transform 0.3s ease;
+    color: #FF7A00;
+    min-width: 24px;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .faqCards {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .faqHead {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .questionContainer {
+      font-size: 1.5rem;
+    }
+  
+    .ansDiv {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .faqContainer {
+      padding: 3rem 1rem;
+    }
+  
+    .faqHead {
+      font-size: 1.75rem;
+    }
+  
+    .faqCards {
+      width: 95%;
+    }
+  
+    .questionContainer {
+      font-size: 1.25rem;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  
+    .faqCard {
+      padding: 1.25rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .questionContainer {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
