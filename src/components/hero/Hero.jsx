@@ -14,7 +14,7 @@ const Hero = () => {
     const handleGetStarted = () => {
         if (loggedIn) {
             navigate("/properties");
-            setRedirectionPath('dashboard');
+            setRedirectionPath('properties');
         } else {
             navigate("/login");
             setRedirectionPath('properties');

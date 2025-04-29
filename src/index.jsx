@@ -10,7 +10,7 @@ const GlobalState=({children})=>{
     const [accessToken,setAccessToken]=useState(null);
     const [userInfo, setUserInfo] = useState(null)
     const [loading, setLoading] = useState(false)
-    const [redirectionPath,setRedirectionPath]=useState('dashboard');
+    const [redirectionPath,setRedirectionPath]=useState('home');
    
 
 

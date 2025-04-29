@@ -57,7 +57,7 @@ export function RegisterPage() {
         setLoggedIn(true);
         setAccessToken(data.token.accessToken);
         setUserInfo({ userData: data?.data })
-        navigate('/dashboard');
+        navigate('/home');
       }
     },
     onError: (error) => {
@@ -88,7 +88,7 @@ export function RegisterPage() {
         const data = await res.json();
         setAccessToken(data.data.accessToken);
         setUserInfo({ userData: data.userInfo })
-        navigate('/dashboard');
+        navigate('/home');
         console.log(data);
       }
     }
