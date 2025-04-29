@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./testimonials.css";
-import image from "../../assets/logo.jpg";
 import { GlobalContext } from '../../index'
 import { useNavigate } from "react-router-dom";
 
