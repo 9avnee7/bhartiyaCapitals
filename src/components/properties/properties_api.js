@@ -15,7 +15,7 @@ let propertyData= [
         "projectedReturns": "14% +",
         "minInvestment": "Rs 20 lakhs",
         "propertyType": "Luxury Villa",
-        "ctaText": "Join Waitlist",
+        "ctaText": "View Details",
         "imageUrl": property1Image,
         "detailedDesc":
             {
@@ -69,7 +69,7 @@ let propertyData= [
         "projectedReturns": "15% +",
         "minInvestment": "Rs 25 lakh",
         "propertyType": "Penthouse",
-        "ctaText": "Join Waitlist",
+        "ctaText": "View Details",
         "imageUrl": "/images/bangalore-penthouse.jpg",
         "detailedDesc":
             {
