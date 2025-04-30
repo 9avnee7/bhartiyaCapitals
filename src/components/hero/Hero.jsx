@@ -2,7 +2,7 @@ import { useContext } from "react";
 import './hero.css';
 import { Link, useNavigate } from "react-router-dom";
 import { GlobalContext } from "../../index"; 
-import videoFile from "../../assets/dashboardVideo.mp4"
+import videoFile from "../../assets/dashboardVideo1.mp4"
 import buildingImage from "../../assets/building.jpg";
 import { motion } from "framer-motion";
 import Disclaimer from "../disclaimer/disclaimer";
