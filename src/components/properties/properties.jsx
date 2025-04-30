@@ -11,7 +11,7 @@ const PropertyListing = () => {
     // const [selectedProperty, setSelectedProperty] = useState(null)
     const openDetailedPane=(property)=>{
         // setSelectedProperty(property);
-        navigate('/detail',{state:{property}})
+        navigate('/detailedProperty',{state:{property}})
 
     }
   return (
