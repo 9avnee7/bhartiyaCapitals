@@ -16,6 +16,7 @@ import AddFeedback from "./components/addFeedback/addFeedback";
 import AdminPanel from "./adminPage/adminpage";
 import Properties from "./components/properties/properties";
 import DetailedProperty from "./components/detailedProperty/detailedProperty";
+import About from "./components/about/about";
 
 const router=createBrowserRouter(
     [
@@ -59,7 +60,7 @@ const router=createBrowserRouter(
         element:
         <div>
          <Navbar/>
-      <Properties/>
+        <About/>
          <Footer/>
         </div>
         
@@ -91,17 +92,6 @@ const router=createBrowserRouter(
           </div>
           
       },
-      {
-        path:'/detail',
-        element:
-        <div>
-          <Navbar/>
-          <DetailedProperty/>
-          <Footer/>
-
-        </div>
-        
-    },
       {
         path:'/contact',
         element:

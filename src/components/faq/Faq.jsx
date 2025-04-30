@@ -11,7 +11,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="faqContainer flex flex-col items-center bg-white min-h-screen py-10">
+    <div className="faqContainer flex flex-col items-center bg-white min-h-screen py-10 mt-20">
       <div className="faqHead text-4xl font-semibold text-black mb-8">
         Frequently Asked Questions
       </div>

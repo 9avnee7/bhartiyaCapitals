@@ -1,0 +1,138 @@
+/* About Component Styling */
+.about-container {
+    padding: 20px;
+    background: linear-gradient(135deg, #f1f1f1, #e8e8e8);
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-header {
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    color: #2e3b4e;
+    margin: 0;
+  }
+  
+  .about-subtitle {
+    font-size: 1.2rem;
+    color: #7a8b9e;
+    margin-top: 10px;
+  }
+  
+  .about-content {
+    margin-top: 40px;
+  }
+  
+  section h2 {
+    color: #2e3b4e;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    animation: slideIn 1s ease-out;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #4a5c6f;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #4a5c6f;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #2e3b4e;
+  }
+  
+  .card p {
+    color: #7a8b9e;
+    font-size: 1.1rem;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 15px;
+    }
+  
+    .about-title {
+      font-size: 2.5rem;
+    }
+  
+    .about-subtitle {
+      font-size: 1rem;
+    }
+  
+    section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .card {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-title {
+      font-size: 2rem;
+    }
+  
+    .about-subtitle {
+      font-size: 0.9rem;
+    }
+  
+    section h2 {
+      font-size: 1.2rem;
+    }
+  
+    .card {
+      padding: 10px;
+    }
+  }
+  
